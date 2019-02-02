@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background-color: #363434;
+  color: #f1f1f1;
+
+}
+
+.link{
+  width: 30%;
+}
+
+.episode{
+  width: 5%;
+  text-align: center;
+}
+
+.saison{
+  width: 5%;
+  text-align: center;
+
+}
+
+label{
+  margin-left: 2%;
+}

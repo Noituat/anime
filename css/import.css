@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  background-color: #363434;
+  color: #f1f1f1;
+
+}
+.nav {
+  display: block;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 30px;
+}
+
+.nav a {;
+  padding:10px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #b80f0a;
+  display: block;
+  text-align:center;
+}
+
+.nav a:hover {
+  color: #f1f1f1;
+  border: solid 2px white;
+}
+
+#bottom_nav{
+  margin-top: 255%;
+  text-align: center;
+}
+#msg_bvn{
+  padding-right: 2px;
+  text-align: center;
+}
+
+
+.form_saison{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+fieldset{
+  height: 450px;
+  width: 550px;
+}
+label{
+  display: block;
+  text-align: center;
+}
+
+input, .select_saison{
+  margin-left: 25%;
+  width: 50%;
+  margin-bottom: 2%;
+  text-align-last:center;
+}
+
+h3{
+  text-align: center;
+}
+select{
+  margin-top: 17%;
+}
+
+#submit{
+  margin-top: 7%;
+}

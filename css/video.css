@@ -1,0 +1,124 @@
+body {
+  font-family: sans-serif;
+  background-color: #363434;
+  color: #f1f1f1;
+
+}
+.nav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 30px;
+}
+
+.nav a {;
+  padding:10px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #b80f0a;
+  display: block;
+  text-align:center;
+}
+
+.nav a:hover {
+  color: #f1f1f1;
+  border: solid 2px white;
+}
+
+#bottom_nav{
+  margin-top: 255%;
+  text-align: center;
+}
+
+video{
+  margin-left: 33%;
+    margin-top: 2%;
+}
+
+
+#msg_bvn{
+  padding-right: 2px;
+  padding-left: auto;
+  text-align: center;
+}
+
+#volume{
+  -webkit-appearance: slider-vertical;
+  margin-left: -40px;
+  height: 500px;
+  width: 100px;
+}
+#saison{
+  margin-left: 47%;
+    width: 120px;
+    margin-top: 0%;
+background-color: #363434;
+color: #b80f0a;
+border: 2px solid #b80f0a;
+height: 40px;
+padding: 5px;
+font-weight: bold;
+}
+
+#episode{
+  margin-left: 55%;
+width: 100px;
+top: -22px;
+position: relative;
+}
+#inputEp{
+  position:relative;
+  top: -22px;
+}
+
+#data{
+  display: none;
+}
+#epButton{
+  position: absolute;
+      margin-left: 47%;
+      margin-top: -21px;
+  }
+
+#video_title{
+  margin-left: 1010px;
+    margin-top: 1%;
+}
+
+#readonly{
+  display: none;
+}
+
+#picture_img{
+  margin-left: 891px;
+      margin-top: 8%;
+      position: absolute;
+      width: 350px;
+      display: block;
+
+}
+
+#picture_link{
+  text-align: center;
+      margin-left: 12%;
+      font-size: 40px;
+}
+#submit{
+  margin-left: 10px;
+position: absolute;
+width: 200px;
+margin-top: 0%;
+background-color: #363434;
+color: #b80f0a;
+border: 2px solid #b80f0a;
+height: 40px;
+padding: 5px;
+font-weight: bold;
+}
+
+#saison:focus{
+  outline: none;
+}
